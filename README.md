@@ -1,36 +1,91 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🧠 Napoleon's Dev Portfolio
 
-## Getting Started
+A sleek and dynamic personal portfolio website to showcase my work across **web development**, **robotics**, and **creative tech projects**. Built to highlight innovation, simplicity, and a passion for building across disciplines.
 
-First, run the development server:
+## 🌐 About the Project
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+This is my official portfolio website designed to:
+- ✨ Display my featured and personal projects
+- 💡 Document my journey in development and robotics
+- 🎯 Help others connect with me professionally
+- 📁 Centralize my technical experiments and creative work
+
+## 🔧 Features
+
+- 🎨 Custom-designed UI with minimal, modern aesthetics
+- 🖼️ Portfolio gallery for web, creative tech, and hardware projects
+- 📹 Timelapse and demo video integration
+- 📬 Contact form powered by EmailJS or Formspree
+- ⚙️ Project filtering based on type (Web, Robotics, UI/UX, etc.)
+- 🔒 Clean, responsive, and optimized for mobile
+
+## 🚀 Tech Stack
+
+- **Frontend:** Next.js, React, Tailwind CSS, Framer Motion  
+- **CMS (optional):** Sanity.io or MDX content system  
+- **Media:** Video.js or embedded YouTube/Vimeo  
+- **Deployment:** Vercel (CI/CD integrated)  
+
+## 🔗 Live Portfolio
+
+🌍 [nap-portfolio.vercel.app](https://nap-portfolio.vercel.app)
+
+Feel free to explore my site and interact with the sections. Projects include source code links, tool stacks used, and design previews.
+
+## 🧪 Projects You’ll See
+
+- 🕸️ **Web Dev:** Full-stack apps, landing pages, portfolio templates  
+- 🤖 **Robotics:** Arduino + ESP32 builds with Firebase, IoT prototypes  
+- 🎥 **Creative:** Timelapse videos, concept art websites for creatives  
+- 📦 **Mini Tools:** Reusable components and helpful dev utilities
+
+## 📂 Folder Structure
+
+```
+/app
+/components -> Reusable layout components (Navbar, Footer, ProjectCards, etc.)
+/pages -> Route-based structure for Home, About, Contact, Projects
+/lib -> Data fetching logic, helper functions
+/public -> Static assets (images, videos, icons)
+/styles -> Global Tailwind and animations
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠 Getting Started
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+# Clone the repository
+git clone https://github.com/Naperality/nap-portfolio.git
 
-## Learn More
+# Navigate into the project
+cd nap-portfolio
 
-To learn more about Next.js, take a look at the following resources:
+# Install dependencies
+npm install
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Run the development server
+npm run dev
+Then visit http://localhost:3000 in your browser.
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🎯 Roadmap
+- Responsive layout + animations
+- Project-based filtering (Web, Robotics, etc.)
+- Blog or Devlog section
+- Dark mode toggle
+- Add CMS or backend dashboard
+- Custom domain & SEO enhancement
 
-## Deploy on Vercel
+## 🧰 Customization
+Want to fork this for your own use? Go ahead! It's built with scalability in mind:
+- Swap out content in /data or CMS
+- Replace media in /public
+- Customize color/theme with Tailwind config
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🤝 Contact
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Built with ❤️ by **Napoleon**
+
+📧 **Email:** [napolytan@gmail.com](mailto:napolytan@gmail.com)  
+🔗 **Portfolio:** [nap-portfolio.vercel.app](https://nap-portfolio.vercel.app)  
+🔗 **LinkedIn:** [linkedin.com/in/visitacion-napoleon-p-ba6275298](https://linkedin.com/in/visitacion-napoleon-p-ba6275298)
